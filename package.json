@@ -1,0 +1,35 @@
+{
+  "name": "mern-complete-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "app": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstack-guru0719/Mern-complete-tutorial.git"
+  },
+  "keywords": [
+    "Mern,fullstack-guru0719"
+  ],
+  "author": "fullstack-guru0719",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fullstack-guru0719/Mern-complete-tutorial/issues"
+  },
+  "homepage": "https://github.com/fullstack-guru0719/Mern-complete-tutorial#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4",
+    "validation": "^0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
